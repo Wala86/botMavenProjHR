@@ -9,17 +9,6 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>com.linecorp.bot</groupId>
-			<artifactId>line-bot-spring-boot</artifactId>
-			<version>1.8.0</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.linecorp.bot</groupId>
-			<artifactId>line-bot-api-client</artifactId>
-			<version>1.8.0</version>
-		</dependency>
-		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
 			<version>20170516</version>
@@ -47,11 +36,6 @@
 		</dependency>
 		
 				<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>4.0.0-b07</version>
-			<scope>provided</scope>
-		</dependency>
+		
 	</dependencies>
 </project>
