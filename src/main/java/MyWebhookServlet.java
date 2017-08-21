@@ -12,8 +12,7 @@ public class MyWebhookServlet extends AIWebhookServlet {
 
 	@Override
 	protected void doWebhook(AIWebhookRequest input, Fulfillment output) {
-		   output.setSpeech("You said: " + input.getResult().getFulfillment().getSpeech());
-		System.out.println("-----------------You said:---------------------"
-				+ input.getResult().getFulfillment().getSpeech());
+		  // output.setSpeech("You said: " + input.getResult().getFulfillment().getSpeech());
+		System.out.println("-----------------You said:---------------------");
 	}
 }
